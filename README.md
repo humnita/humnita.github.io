@@ -1,1 +1,0 @@
-A personal page to showcase my completed and ongoing projects. :)
