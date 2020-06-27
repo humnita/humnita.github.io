@@ -1,0 +1,28 @@
+header {
+    width: 1503px;
+    height: 58px;
+    background-color: #A3BAB7;
+    margin: 0;
+    font-size: 24px;
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 10px;
+}
+
+#greeting {
+    font-size: 72px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+  }

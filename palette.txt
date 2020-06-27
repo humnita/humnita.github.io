@@ -1,0 +1,13 @@
+/* Coolors Exported Palette - https://coolors.co/4a6461-a67b5f-060305-4a6461-a3bab7 */
+
+/* CSV */
+4A6461,A67B5F,060305,4A6461,A3BAB7
+
+/* Array */
+["4A6461","A67B5F","060305","4A6461","A3BAB7"]
+
+/* Object */
+{"Feldgrau":"4A6461","Cafe Au Lait":"A67B5F","Rich Black FOGRA 39":"060305","Feldgrau 2":"4A6461","Opal":"A3BAB7"}
+
+/* Extended Array */
+[{"name":"Feldgrau","hex":"4A6461","rgb":[74,100,97],"cmyk":[26,0,3,61],"hsb":[173,26,39],"hsl":[173,15,34],"lab":[40,-10,-1]},{"name":"Cafe Au Lait","hex":"A67B5F","rgb":[166,123,95],"cmyk":[0,26,43,35],"hsb":[24,43,65],"hsl":[24,29,51],"lab":[55,13,22]},{"name":"Rich Black FOGRA 39","hex":"060305","rgb":[6,3,5],"cmyk":[0,50,17,98],"hsb":[320,50,2],"hsl":[320,33,2],"lab":[1,1,0]},{"name":"Feldgrau","hex":"4A6461","rgb":[74,100,97],"cmyk":[26,0,3,61],"hsb":[173,26,39],"hsl":[173,15,34],"lab":[40,-10,-1]},{"name":"Opal","hex":"A3BAB7","rgb":[163,186,183],"cmyk":[12,0,2,27],"hsb":[172,12,73],"hsl":[172,14,68],"lab":[74,-8,-1]}]
