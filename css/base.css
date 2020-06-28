@@ -9,6 +9,13 @@ header {
     text-align: center;
 }
 
+footer {
+    font-size: small;
+    bottom: 0;
+    left: 45%;
+    position: fixed;
+}
+
 .contact {
     padding-top: 10px;
 }
@@ -22,33 +29,175 @@ a:hover {
     color:#A67B5F;
 }
 
-#greeting {
-    font-size: 72px;
-    font-family: 'Courier New', Courier, monospace;
+#welcome {
+    color: #A67B5F;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
     text-align: right;
 }
 
-
-#triangle-up {
+#AboutMe{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* First Triangles */
+/* .triangle-up {
+    text-align: center;
     display: inline-block;
     width: 0;
     height: 0;
     border-left: 157.5px solid transparent;
     border-right: 157.5px solid transparent;
     border-bottom: 227.5px solid #4A6461;
+    position: relative;
+    padding: 0;
+    margin: 0;
+
+    text-align: center;
+
+
   }
 
-#triangle-down {
-    display: inline-block;
+.triangle-down {
+    text-align: center;
     width: 0;
-	height: 0;
+    height: 0;
+    line-height: 20px;
 	border-left: 183.8px solid transparent;
 	border-right: 183.8px solid transparent;
     border-top: 227.5px solid #A67B5F;
+    margin: 20px auto; 
+    position: relative;
+    display: inline-block;
 
+} */
+
+
+
+.up-1 {
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 183.8px 227.5px 183.8px;
+    border-color: transparent transparent #4A6461 transparent;
+    float: left;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    display: inline-block;
+  }
+  
+.up-1 p {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    top: 100px;
+    left: -55px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    display: inline-block;
+  }
+
+.up-1 a, .up-2 a{
+    color: beige;
+    font-size: large;
+    text-align: center;
+    top: 60px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    display: inline-block;
+}
+  
+
+
+.down {
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 227.5px 183.8px 0 183.8px;
+    border-color: #A67B5F transparent transparent transparent;
+    float: left;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    display: inline-block;
+  }
+  
+.down p {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    bottom: 175px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    display: inline-block;
+
+  }
+
+  .down a{
+    color: beige;
+    font-size: large;
+    text-align: center;
+    bottom: 175px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    display: inline-block;
 }
 
+
+  .up-2 {
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 183.8px 227.5px 183.8px;
+    border-color: transparent transparent #4A6461 transparent;
+    float: right;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    display: inline-block;
+  }
+  
+.up-2 p {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    top: 100px;
+    left: -55px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    display: inline-block;
+  }
+
+
 #projects {
+    display:block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: 13%;
     padding: 20px;
     padding-bottom: 30px;
+    
 }
