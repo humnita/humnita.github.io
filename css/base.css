@@ -40,41 +40,8 @@ a:hover {
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* First Triangles */
-/* .triangle-up {
-    text-align: center;
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border-left: 157.5px solid transparent;
-    border-right: 157.5px solid transparent;
-    border-bottom: 227.5px solid #4A6461;
-    position: relative;
-    padding: 0;
-    margin: 0;
 
-    text-align: center;
-
-
-  }
-
-.triangle-down {
-    text-align: center;
-    width: 0;
-    height: 0;
-    line-height: 20px;
-	border-left: 183.8px solid transparent;
-	border-right: 183.8px solid transparent;
-    border-top: 227.5px solid #A67B5F;
-    margin: 20px auto; 
-    position: relative;
-    display: inline-block;
-
-} */
-
-
-
-.up-1 {
+.up-1, .up-2 {
     width: 0px;
     height: 0px;
     border-style: inset;
@@ -89,7 +56,7 @@ a:hover {
     display: inline-block;
   }
   
-.up-1 p {
+.up-1 p, .up-2 p {
     font-family: 'Roboto Mono', monospace;
     color: white;
     text-align: center;
@@ -161,35 +128,9 @@ a:hover {
     display: inline-block;
 }
 
-
-  .up-2 {
-    width: 0px;
-    height: 0px;
-    border-style: inset;
-    border-width: 0 183.8px 227.5px 183.8px;
-    border-color: transparent transparent #4A6461 transparent;
-    float: right;
-    transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    display: inline-block;
-  }
-  
-.up-2 p {
-    font-family: 'Roboto Mono', monospace;
-    color: white;
-    text-align: center;
-    font-size: x-large;
-    top: 90px;
-    left: -55px;
-    position: relative;
-    width: 93px;
-    height: 93px;
-    margin: 0px;
-    display: inline-block;
-  }
+.up-2 {
+  float: right;
+}
 
 
 #projects {
