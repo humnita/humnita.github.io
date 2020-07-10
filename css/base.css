@@ -60,7 +60,7 @@ a:hover {
     font-family: 'Roboto Mono', monospace;
     color: white;
     text-align: center;
-    font-size: x-large;
+    font-size: 24px;
     top: 90px;
     left: -55px;
     position: relative;
@@ -104,7 +104,7 @@ a:hover {
     font-family: 'Roboto Mono', monospace;
     color: white;
     text-align: center;
-    font-size: x-large;
+    font-size: 24px;
     bottom: 200px;
     left: -47px;
     position: relative;
