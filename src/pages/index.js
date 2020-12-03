@@ -1,14 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
+import Navigation from "../components/navigation"
 
 export default function Home() {
     
   return (
 
     <main>
-      <h1>Hello Gatsby!</h1>
+      <Navigation/>
+      <h1>Della Humanita</h1>
       <p>
-        <Link to="/about/">About</Link>
+        Hello world!
       </p>
     </main>
 

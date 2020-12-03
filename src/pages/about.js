@@ -1,10 +1,12 @@
 import React from "react"
+import Header from "../components/header"
 
 const AboutPage = () => (
-  <main>
-    <h1>About the Author</h1>
-    <p>Welcome to my Gatsby site.</p>
-  </main>
+  <div style={{ color: `teal` }}>
+    <Header headerText="About Me"/>
+    <p>This is a test site.</p>
+  </div>
+
 )
 
 export default AboutPage
